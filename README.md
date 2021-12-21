@@ -2,5 +2,6 @@
 
 - Proxmox VE
   - pfsense
+  - pihole
   - Minecraft Server LXC
 
