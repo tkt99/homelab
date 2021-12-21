@@ -1,8 +1,9 @@
-# Home Lab: 
-#### For learning and tinkering goodness
+# Home Lab
+Purpose: to have fun by tinkering and learning
 
-- Proxmox VE
-  - pfsense
-  - pihole
-  - Minecraft Server LXC
+### Proxmox VE
+
+- [ ] pfsense
+- [ ] pihole
+- [ ] Minecraft Server LXC
 
