@@ -7,7 +7,7 @@ Purpose: to have fun by tinkering and learning
   - DHCP
   - firewall with OpenVPN
 - [X] pihole
-  - Internal and main DNS server)
+  - Internal and main DNS server
 
 - [ ] Docker VM (running docker-compose files for now):
   - [X] bookstack for self-hosted documentation/wiki (VPN access only)
