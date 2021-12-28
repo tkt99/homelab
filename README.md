@@ -39,4 +39,5 @@ Goals/Projects:
 
 - port-forward web traffic to Docker VM and test if IP reached the VM
 - test if web traffic can reach BookStack
+- configure BookStack to work nginx
 
