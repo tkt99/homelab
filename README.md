@@ -18,7 +18,7 @@ Goals:
   - [X] DHCP
   - [X] OpenVPN server (for remote access from my PC within my home network)
   - [ ] Wireguard setup to replace OpenVPN
-  - [ ] NAT rule and internal DNS resolver type in a name instead of IP for accessing from the public* 
+  
 
 - [X] [pihole](https://pi-hole.net/) (Filters and blocks DNS according to block list)
   - [X] Main DNS server pointing to public DNS servers
@@ -26,7 +26,7 @@ Goals:
 
 - [ ] Docker VM (running docker-compose files for now will switch to Portainer):
   - [X] [BookStack](https://www.bookstackapp.com/) for self-hosted documentation/wiki (VPN access only)
-    - [ ] [NGINX Proxy Manager](https://nginxproxymanager.com/) for public* access with HTTPS
+    - [ ] [NGINX Proxy Manager](https://nginxproxymanager.com/) for subdomains and public* access
     
 
 - [ ] Minecraft Server LXC
