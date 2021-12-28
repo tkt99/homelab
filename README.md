@@ -33,5 +33,11 @@ Goals:
 - [ ] Dashboard to access all web interfaces in one place (Heimdall)
 - [ ] Network statistics/logging (WireShark through ssh X forwarding?)
 
-
 * within my home network, but not inside the internal pfsense network
+
+
+# TODO:
+
+- Test if entering LAN IP address of firewall is detected in pfsense firelogs
+- port-forward 443 to Docker VM, and test if IP reached the VM
+
