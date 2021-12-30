@@ -26,7 +26,6 @@ Purpose: To segment my own network (intranet) within my home network for tinkeri
 ### Inactive (Experimentation):
 
 Docker (Alpine Linux VM)
-  Attempted:
   - [BookStack](https://github.com/linuxserver/docker-bookstack) self-hosted web application
   - NGINX proxy manager with SSL certificate
   - DuckDNS
