@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2021-12-30T01:00:06.566Z
+tags: 
+editor: markdown
+dateCreated: 2021-12-30T00:58:44.554Z
+---
+
 # Home Lab
 
 Hardware: HP Pavillion g6 laptop (connected via ethernet to a switch which is connected to the modem/router in my home)
@@ -25,8 +35,7 @@ Goals/Projects:
   - [X] Main DNS server pointing to public DNS servers
   - [ ] Internal DNS
 
-- [ ] Docker VM (running docker-compose files for now will switch to Portainer):
-  - [X] [BookStack](https://www.bookstackapp.com/) for self-hosted documentation/wiki (VPN access only)
+- [X] wiki.js LXC
    
 - [ ] Minecraft Server LXC
 - [ ] Dashboard to access all web interfaces in one place (Heimdall)
@@ -37,7 +46,4 @@ Goals/Projects:
 
 # TODO:
 
-- port-forward web traffic to Docker VM and test if IP reached the VM
-- test if web traffic can reach BookStack
-- configure BookStack to work nginx
 
