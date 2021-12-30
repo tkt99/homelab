@@ -6,28 +6,28 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
 
 Purpose: To segment my own network (intranet) within my home network for tinkering and learning
 
-## Proxmox VE setup
+## Proxmox Current Setup
 
-- [X] [pfsense](https://www.pfsense.org/)
-  - [X] router/firewall 
-  - [X] DHCP
-  - [X] OpenVPN server
-  - [ ] Wireguard (replaces OpenVPN)
+[pfsense](https://www.pfsense.org/) (FreeBSD VM from custom ISO)
+- router/firewall 
+- DHCP
+- OpenVPN server
   
-- [X] [pihole](https://pi-hole.net/)
-  - [X] Main DNS server pointing to public DNS servers
-  - [ ] Internal DNS
+[pihole](https://pi-hole.net/) (Debian LXC)
+- Main DNS server pointing to public DNS servers
 
-- [X] wiki.js LXC
-- [ ] Minecraft Server LXC
-- [ ] Dashboard to access all web interfaces in one place (Heimdall)
-- [ ] Network statistics/logging (WireShark through ssh X forwarding?)
+[wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) (Debian LXC)
 
 
 # TODO:
 
+General:
 - Host a minecraft server
+- Centralized logging (SEIM + packet analysis)
+- Automate package installs with every new Linux container
+
+Web Apps:
+- Access every web interface from one place ([Heimdall](https://heimdall.site/))
 - Configure DNS to avoid typing in IP addresses within my intranet
-- Centralized logging
-- Access every service from one place ([Heimdall](https://heimdall.site/))
-- Harden wiki.js access to secure connection
+- Harden wiki.js HTTP access for a more secure connection
+- Configure reverse proxy with NGINX for web apps
