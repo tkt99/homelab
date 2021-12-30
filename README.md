@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2021-12-30T02:54:04.373Z
+tags: 
+editor: markdown
+dateCreated: 2021-12-30T02:52:23.592Z
+---
+
 # Home Lab
 
 Hardware: HP Pavillion g6 laptop (connected via ethernet to a switch which is connected to the modem/router in my home)
@@ -35,5 +45,3 @@ Goals/Projects:
 
 
 # TODO:
-a
-
