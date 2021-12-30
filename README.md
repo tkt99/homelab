@@ -1,12 +1,14 @@
 # Home Lab
+### Purpose: To segment my own network (intranet) within my home network for tinkering and learning
 
 Hardware: HP Pavillion g6 laptop (connected via ethernet to a switch which is connected to the modem/router in my home)
 
 OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1 Hypervisor built within a Debian Linux distro)
 
-Purpose: To segment my own network (intranet) within my home network for tinkering and learning
 
-## Proxmox Current Setup
+
+
+# Proxmox Current Setup
 
 ### Active:
 
@@ -30,6 +32,7 @@ Docker (Alpine Linux VM)
   - NGINX proxy manager with SSL certificate
   - DuckDNS
   
+
 
 # TODO:
 
