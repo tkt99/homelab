@@ -13,7 +13,7 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
 ### Active:
 
 
-[pfsense](https://www.pfsense.org/) (FreeBSD VM from custom ISO)
+[pfsense](https://www.pfsense.org/) (FreeBSD VM)
 - router/firewall 
 - DHCP
 - OpenVPN server
@@ -25,11 +25,11 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
 
 
 
-### Inactive (Experimentation):
+### Inactive (Experimentation/Learning):
 
 Docker (Alpine Linux VM)
   - [BookStack](https://github.com/linuxserver/docker-bookstack) self-hosted web application
-  - NGINX proxy manager with SSL certificate
+  - NGINX proxy manager with Let's Encrypt SSL certificate
   - DuckDNS
   
 
@@ -40,6 +40,7 @@ General:
 - Host a minecraft server
 - Centralized logging (SEIM + packet analysis)
 - Automate package installs with every new Linux container
+- Setup Wireguard or automate the way I connect with OpenVPN (right now I connect through command line from PC)
 
 Web Apps:
 - Access every web interface from one place ([Heimdall](https://heimdall.site/))
