@@ -8,6 +8,9 @@ Purpose: To segment my own network (intranet) within my home network for tinkeri
 
 ## Proxmox Current Setup
 
+### Active:
+
+
 [pfsense](https://www.pfsense.org/) (FreeBSD VM from custom ISO)
 - router/firewall 
 - DHCP
@@ -18,8 +21,11 @@ Purpose: To segment my own network (intranet) within my home network for tinkeri
 
 [wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) (Debian LXC)
 
+
+
+### Inactive (Experimentation):
+
 Docker (Alpine Linux VM)
-- *Inactive, used for experimentation*
   Attempted:
   - [BookStack](https://github.com/linuxserver/docker-bookstack) self-hosted web application
   - NGINX proxy manager with SSL certificate
