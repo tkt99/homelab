@@ -1,5 +1,11 @@
 # Home Lab
-### Purpose: To segment my own network (intranet) within my home network for tinkering and learning
+### <ins>Purpose</ins>: To segment my own network (intranet) within my home network for tinkering and learning
+***Learning Goals (I hope to gain practical skills in these areas through mini projects within this home lab):***
+- *Computer Networking*
+- *System Administration*
+- *Cyber Security*
+
+---
 
 Hardware: HP Pavillion g6 laptop 
 - CPU: Intel Core i5-2430M @ 2.4GHz, 4 cores
@@ -33,17 +39,26 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
   - [X] Internal DNS
 
 - [ ] Ansible - Automate package installs with each new created Linux container 
+
+
+## Self-hosted Services (Only for LAN network outside of pfsense): 
+
 - [ ] NGINX - Reverse Proxy (Debain VM)
+  - [ ] wiki.js
+
 - [ ] [Waterfall](https://github.com/PaperMC/Waterfall) - Minecraft Reverse Proxy Server (with NGINX VM or separate VM)
+  - [ ] PaperMC instance #1
 
-## Services: 
-
-- [ ] [wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) web app (Debian LXC behind NGINX)
+- [X] [wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) web app (Debian LXC behind NGINX)
+  - [X] postgresql setup
+  - [X] systemd service for starting web app on boot
 
 - [X] PaperMC instance #1 - Close friends Minecraft Server (Debian LXC behind Waterfall)
   - [ ] Server domain
 
 
-## Experimental/Leanring:
+## Experimental/Leanring (Separate VLAN?):
 
 - [ ] Play around with P2P networking and decentralized applications to learn its concepts
+- [ ] Kali VM
+- [ ] WireShark hacking
