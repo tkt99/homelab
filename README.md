@@ -3,7 +3,8 @@
 ***Learning Goals (I hope to gain practical skills in these areas through mini projects within this home lab):***
 - *Computer Networking*
 - *System Administration*
-- *Cyber Security*
+- *Defensive Cyber Security*
+- *Network and Endpoint Forensics*
 
 ---
 
@@ -27,10 +28,12 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
   - [X] DHCP
   - [X] OpenVPN server
   - [ ] Wireguard to replace OpenVPN
-  - [ ] Snort (Separate LXC?)
+  - [X] Snort
 
 - [ ] [Heimdall](https://heimdall.site/) - Access every web interface from one place (LXC behind NGINX)
 - [ ] Splunk or ELK Stack - centralized logging (LXC behind NGINX)
+- [ ] Security Onion?
+- [ ] SIFT Workstation - Forensics
 
 ## Internal: 
 
