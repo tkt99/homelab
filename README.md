@@ -66,10 +66,10 @@
 
 ## *<ins>Security/Foresnics:</ins>*
 
-- [ ] Security Onion - centralized security monitoring and logging
-- [ ] Kali VM
+- [ ] Security Onion - centralized security monitoring and logging (VM)
+- [ ] Kali (Debian VM)
 - [ ] WireShark hacking
-- [ ] SIFT Workstation - Forensics
+- [ ] [SIFT Workstation](https://github.com/teamdfir/sift-cli#installation) - Forensics (Ubuntu VM)
 
 
 ## *<ins>P2P Networking:</ins>*
