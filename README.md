@@ -10,7 +10,8 @@ Hardware: HP Pavillion g6 laptop
 OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1 Hypervisor built within a Debian Linux distro)
 
 - [X] = Succeeeded
-- [ ] = Attempted/Planned
+- [ ] = Planned
+-     = Attempted
 
 
 # Proxmox Projects
@@ -44,8 +45,8 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
 
 - [ ] web app through HTTPS (Docker on Alpine Linux VM)
   - [X] [BookStack](https://github.com/linuxserver/docker-bookstack) self-hosted web application
-  - [ ] NGINX proxy manager with Let's Encrypt SSL certificate
-  - [ ] Access through DuckDNS
+  - NGINX proxy manager with Let's Encrypt SSL certificate
+  - Access through DuckDNS
 
 - [ ] Minecraft Server (Debian LXC)
   - [X] Host port-forwarded minecraft server
