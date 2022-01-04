@@ -1,12 +1,12 @@
 # Home Lab
 ### <ins>Purpose</ins>: To segment my own network (intranet) within my home network for tinkering and learning
-***Learning Goals:***
+***Learning Goals\*:***
 - Computer Networking
 - System Administration
 - Defensive Cyber Security
 - Network and Endpoint Forensics
 
-*(I hope to gain practical skills in these areas through mini projects within this home lab)*
+*\*I hope to gain practical skills in these areas through mini projects within this home lab*
 
 ---
 
@@ -19,10 +19,10 @@
 <ins>OS</ins>: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1 Hypervisor built within a Debian Linux distro)
 
 
-# *Proxmox Projects*
+# Proxmox Projects
 
 
-## Management: 
+### <ins>*Management:*</ins>
 
 
 - [ ] [pfsense](https://www.pfsense.org/) - Firewall and router(FreeBSD VM)
@@ -33,7 +33,7 @@
   - [X] Snort
 
 
-## Internal: 
+### *<ins>Internal:</ins>*
 
 - [ ] [pihole](https://pi-hole.net/) - DNS (Debian LXC)
   - [X] Main DNS server pointing to public DNS servers
@@ -42,7 +42,7 @@
 - [ ] Ansible - Automate package installs with each new created Linux container 
 
 
-## Self-hosted Services:
+### *<ins>Self-hosted Services:</ins>*
 *(Only for LAN network outside of pfsense)*
 
 
@@ -57,7 +57,7 @@
     - [ ] get server domain
 
 
-## Security/Foresnics:
+### *<ins>Security/Foresnics:</ins>*
 
 - [ ] Security Onion - centralized security monitoring and logging
 - [ ] Kali VM
@@ -65,8 +65,8 @@
 - [ ] SIFT Workstation - Forensics
 
 
-## P2P Networking:
-*Learn its concepts through projects
+### *<ins>P2P Networking:</ins>*
+*Learn its concepts through projects*
 
 - [ ] 
 
