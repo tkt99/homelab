@@ -26,34 +26,40 @@
 ## <ins>*Management:*</ins>
 
 
-- [ ] [pfsense](https://www.pfsense.org/) - Firewall and router(FreeBSD VM)
+- [pfsense](https://www.pfsense.org/) - Firewall and router(FreeBSD VM)
   - [X] NAT forward web traffic to proxy
   - [X] DHCP
   - [X] OpenVPN server
-  - [ ] Wireguard to replace OpenVPN
+  - [ ] Wireguard (to replace OpenVPN)
   - [X] Snort
 
 
 ## *<ins>Internal:</ins>*
 
-- [ ] [pihole](https://pi-hole.net/) - DNS (Debian LXC)
+- [pihole](https://pi-hole.net/) - DNS (Debian LXC)
   - [X] Main DNS server pointing to public DNS servers
   - [X] Internal DNS
 
-- [ ] Ansible - Automate package installs with each new created Linux container 
+- Ansible - Automate package installs with each new created Linux container 
+  - [ ] packages to install:
+    - [ ] sudo
+    - [ ] vim
+  - [ ] update repo
+  - [ ] set up user and add to sudo 
+  - [ ] configure static IP address if needed
 
 
 ## *<ins>Self-hosted Services:</ins>*
 *(Only for LAN network outside of pfsense)*
 
 
-- [ ] NGINX Web Server - Used as a reverse proxy (Debain VM)
+- NGINX Web Server - Used as a reverse proxy (Debain VM)
   - [ ] [Heimdall](https://heimdall.site/) - Access every web interface from one place (LXC behind NGINX)
   - [X] [wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) web app (Debian LXC behind NGINX)
     - [X] postgresql setup
     - [X] systemd service for starting web app on boot
 
-- [ ] [Waterfall](https://github.com/PaperMC/Waterfall) - Minecraft Reverse Proxy Server (with NGINX VM or separate VM)
+- [Waterfall](https://github.com/PaperMC/Waterfall) - Minecraft Reverse Proxy Server (with NGINX VM or separate VM)
   - [X] PaperMC instance #1 - Close friends Minecraft Server (Debian LXC behind Waterfall)
     - [ ] get server domain
 
