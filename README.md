@@ -18,11 +18,12 @@
 
 <ins>OS</ins>: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1 Hypervisor built within a Debian Linux distro)
 
+---
 
 # Proxmox Projects
 
 
-### <ins>*Management:*</ins>
+## <ins>*Management:*</ins>
 
 
 - [ ] [pfsense](https://www.pfsense.org/) - Firewall and router(FreeBSD VM)
@@ -33,7 +34,7 @@
   - [X] Snort
 
 
-### *<ins>Internal:</ins>*
+## *<ins>Internal:</ins>*
 
 - [ ] [pihole](https://pi-hole.net/) - DNS (Debian LXC)
   - [X] Main DNS server pointing to public DNS servers
@@ -42,7 +43,7 @@
 - [ ] Ansible - Automate package installs with each new created Linux container 
 
 
-### *<ins>Self-hosted Services:</ins>*
+## *<ins>Self-hosted Services:</ins>*
 *(Only for LAN network outside of pfsense)*
 
 
@@ -57,7 +58,7 @@
     - [ ] get server domain
 
 
-### *<ins>Security/Foresnics:</ins>*
+## *<ins>Security/Foresnics:</ins>*
 
 - [ ] Security Onion - centralized security monitoring and logging
 - [ ] Kali VM
@@ -65,10 +66,10 @@
 - [ ] SIFT Workstation - Forensics
 
 
-### *<ins>P2P Networking:</ins>*
+## *<ins>P2P Networking:</ins>*
 *Learn its concepts through projects*
 
-- [ ] 
+- [ ] tbd
 
 
 
