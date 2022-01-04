@@ -21,16 +21,19 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
 - Main DNS server pointing to public DNS servers
 - Filters and logs DNS queries
 
-### Experimental/Learning
+# Experimental/Learning
 
-[X] web app through HTTP and port-forwarding ([wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) on Debian LXC)
+- [X] = Succeeeded
+- [ ] = Attempted/Planned
 
-[ ] web app through HTTPS (on Alpine Linux VM)
+- [X] web app through HTTP and port-forwarding ([wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) on Debian LXC)
+
+- [ ] web app through HTTPS (on Alpine Linux VM)
   - [X] [BookStack](https://github.com/linuxserver/docker-bookstack) self-hosted web application
-  - [X] NGINX proxy manager with Let's Encrypt SSL certificate
+  - [ ] NGINX proxy manager with Let's Encrypt SSL certificate
   - [ ] Access through DuckDNS
 
-[ ] Minecraft Server
+- [ ] Minecraft Server
   - [X] Host port-forwarded minecraft server
   - [X] Use [Waterfall](https://github.com/PaperMC/Waterfall) to act as a proxy to the Minecraft server
   - [ ] Mask IP address
@@ -39,7 +42,7 @@ OS: [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) (Type 1
   
 
 
-# TODO:
+# Current TODO:
 
 General:
 - Automate package installs with each new created Linux container
