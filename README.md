@@ -8,6 +8,8 @@
 
 *\*I hope to gain practical skills in these areas through mini projects within this home lab*
 
+*My learning and thought processes can be seen in [this document](progress-notes.md)*
+
 ---
 
 <ins>Hardware</ins>: HP Pavillion g6 laptop 
