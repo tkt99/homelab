@@ -68,8 +68,8 @@
 
 ## *<ins>Security/Foresnics:</ins>*
 
-- [ ] [Security Onion](https://docs.securityonion.net/en/2.3/installation.html) - centralized security monitoring and logging (VM)
 - [X] [SIFT Workstation](https://github.com/teamdfir/sift-cli#installation) - Forensics (Ubuntu VM)
+- [ ] Centralized security monitoring and logging (VM) 
 - [ ] Kali (Debian VM)
   - [ ] WireShark hacking
 
