@@ -3,6 +3,8 @@
 This document will be keep track of my troubleshooting processes and learning as my home lab evolves. (WIP)
 
 ## Starting out/Planning
+Prior to starting a home lab, I had little to no knowledge of how networking really works in the real-world. The only networking knowledge I had was from an Introduction to Networking course. Starting out and establishing an initial topology along with defining what components control different parts of the networking definitely made me more familiar with the big picture of how everything is structured.
+
 ### pfSense setup (WAN/LAN)
 Initially, I wanted to create a segmented network within my home network so that I can set up and install anything I wanted without affecting the network of those that I live with. I did not know that I would install in my home lab at this point, but I knew I wanted to start with a pfSense firewall/router and try out pihole as the first software to install. After watching Youtube tutorials on installing pfSense, a lot of them mentioned that I needed at least two ethernet ports on my machine. I did not have that, so I was confused for a while on how I would go about segmenting a network. Eventually I found a video taht the network bridges can be created within the Proxmox software itself, which would allow the physical ethernet port to act as a "WAN" (WAN network is my home network's LAN), and a Proxmox network bridge (vmbr01) as my segmented network's LAN. After setting pfSense up and setting it as a DHCP server, any future virtual machines or linux containers within Proxmox will be assigned an IP address separate to my home network's LAN.
 
