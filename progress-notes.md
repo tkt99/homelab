@@ -1,7 +1,17 @@
+_This document will be keep track of my thoughts as the home lab evolves._
+
 # Learning Journey
 
-This document will be keep track of my troubleshooting processes and learning as my home lab evolves. (WIP)
+**Self-hosting:**
+Originally, I wanted to document my progress on a self-hosted wiki application, but having realized the implications of self-hosting as well as keeping the documentation of the Home Lab on the Home Lab itself, I concluded that was not the best idea, and decided to scrap it.
 
+**Network Security and forensics:**
+Even though I won't self-host, I would still like to learn about how to secure my network if I were to self-host. Additionally for forensics and having some experience with Wireshark, I've always enjoyed diving into the details.
+
+**Spyware Analysis:**
+I tend to be paranoid of my data being tracked online and/or having the microphones and cameras on my devices being compromised, so this seems like a good opportunity to take the matters into my own hands and see under the hood. I plan to execute malware such as spyware on the lab and observe what happens on the network through forensics.
+
+The next few sections will describe the troubleshooting and learning processes of each section of the lab.
 
 ## Starting out/Planning
 Prior to starting a home lab, I had little to no knowledge of how networking really works in the real-world. The only networking knowledge I had was from an Introduction to Networking course. Starting out and establishing an initial topology along with defining what components control different parts of the networking definitely made me more familiar with the big picture of how everything is structured.
@@ -33,12 +43,5 @@ Prior to starting a home lab, I had little to no knowledge of how networking rea
 ### Future Plans and Direction of Home Lab evolution
 After setting up services, I realized that there was a difference between a "home lab" and a "home server." Setting up and self hosting services was out of the question due to the security implications of hosting from my home router. Additionally, there aren't many things I wish to do in terms of self-hosting. If I want this project to continue, I knew I had to decide on which direction to take in terms of expanding. Since the main purpose of this lab is to learn technologies, I will continue it without enphasizing too much on hosting services, and emphasize it on the basis of a segmented network where I can set up and bring down services just for the sake of learning how it works. The areas of focus will depend on my interest at the moment.
 
-# History of Interests:
-**Self-hosting:**
-Originally, I wanted to document my progress on a self-hosted wiki application, but having realized the implications of self-hosting as well as keeping the documentation of the Home Lab on the Home Lab itself, I concluded that was not the best idea, and decided to scrap it.
 
-**Network Security and forensics:**
-Even though I won't self-host, I would still like to learn about how to secure my network if I were to self-host. Additionally for forensics and having some experience with Wireshark, I've always enjoyed diving into the details.
 
-**Spyware Analysis:**
-I tend to be paranoid of my data being tracked online and/or having the microphones and cameras on my devices being compromised, so this seems like a good opportunity to take the matters into my own hands and see under the hood. I plan to execute malware such as spyware on the lab and observe what happens on the network through forensics.
