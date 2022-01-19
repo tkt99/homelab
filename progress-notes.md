@@ -11,6 +11,9 @@ Even though I won't self-host, I would still like to learn about how to secure m
 **Spyware Analysis:**
 I tend to be paranoid of my data being tracked online and/or having the microphones and cameras on my devices being compromised, so this seems like a good opportunity to take the matters into my own hands and see under the hood. I plan to execute malware such as spyware on the lab and observe what happens on the network through forensics.
 
+**Threat Modeling:**
+However, before diving deep into the tools and technology, I feel like it would be wise to take into consideration the actual threat I am defending from instead of taking action based on paranoia. 
+
 The next few sections will describe the troubleshooting and learning processes of each section of the lab.
 
 ## Starting out/Planning
