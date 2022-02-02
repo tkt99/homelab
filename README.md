@@ -32,9 +32,6 @@
   - [X] NAT forward web traffic to proxy
   - [X] DHCP
   - [X] OpenVPN server
-  - [ ] Wireguard (to replace OpenVPN)
-  - [X] Snort
-
 
 ## *<ins>Internal:</ins>*
 
@@ -54,8 +51,7 @@
 ## *<ins>Self-hosted Services:</ins>*
 *(Only for LAN network outside of pfsense)*
 
-
-- NGINX Web Server - Used as a reverse proxy (Debain VM)
+- NGINX Web Server - Used as a reverse proxy to these web servers: (Debain VM)
   - [ ] [Heimdall](https://heimdall.site/) - Access every web interface from one place (LXC behind NGINX)
   - [X] [wiki.js](https://www.vultr.com/docs/install-wiki-js-with-node-js-postgresql-and-nginx-on-ubuntu-20-04-lts/) web app (Debian LXC behind NGINX)
     - [X] postgresql setup
@@ -70,16 +66,5 @@
 
 - [X] [SIFT Workstation](https://github.com/teamdfir/sift-cli#installation) - Forensics (Ubuntu VM)
 - [ ] Centralized security monitoring and logging (VM) 
-- [ ] Kali (Debian VM)
-  - [ ] WireShark hacking
-
-
-
-## *<ins>P2P Networking:</ins>*
-*Learn its concepts through projects*
-
-- [ ] tbd
-
-
 
 
