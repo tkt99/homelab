@@ -15,7 +15,7 @@ I tend to be paranoid of my data being tracked online and/or having the micropho
 However, before diving deep into the tools and technology, I feel like it would be wise to take into consideration the actual threat I am defending from instead of taking action based on paranoia.
 
 **Malware Analysis:**
-Before I execute the Malware, since I am on a network where others are on it as well, I want to be careful to properly segment my network so that no inbound or outbound connections can be made besides a VPN connection. I will need some guidance on this, so I will ask those in my network that has more experience than I do.
+Additionally, before I execute malware randomly, since I am on a network where others are on it as well, I want to be careful to properly segment my network so that no inbound or outbound connections can be made besides a VPN connection. I will need some guidance on this, so I will ask those in my network that has more experience than I do.
 
 The next few sections will describe the troubleshooting and learning processes of each section of the lab.
 
