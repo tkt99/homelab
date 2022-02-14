@@ -65,6 +65,7 @@
 ## *<ins>Security/Foresnics:</ins>*
 
 - [X] [SIFT Workstation](https://github.com/teamdfir/sift-cli#installation) - Forensics (Ubuntu VM)
-- [ ] Centralized security monitoring and logging (VM) 
+  - [X] REMnux tools addon to SIFT
+  - [ ] Begin researching malware analysis/digital forensics techniques in regards to what kinds of footprints spyware can leave on a system. 
 
 
