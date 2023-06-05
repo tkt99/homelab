@@ -8,3 +8,6 @@
 - PiVPN
 - k3s
 
+## Future
+
+- Create Infrastructure as Code for all services (Terraform/Ansible)
